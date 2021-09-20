@@ -11,3 +11,6 @@ Inputs:
 Sample output:
  Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 """
+x = input("What is your name?").strip()
+y = input("What is your email address?")
+print("Your name is " + x + ","  + " and your email is " + y + ".")

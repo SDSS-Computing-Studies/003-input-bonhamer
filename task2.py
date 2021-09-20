@@ -3,7 +3,6 @@
 # You will ask the user to enter the radius of the sphere.
 # Calculate the Volume and then display the result to the user.
 # You will need to import the math module in order to use math.pi
-
 # Inputs:
 # radius
 #
@@ -11,3 +10,7 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+import math
+r = float( input("what is your radius? "))
+v = (4.0/3.0*math.pi*r**3)
+print('The volume of the sphere is: ',v)
